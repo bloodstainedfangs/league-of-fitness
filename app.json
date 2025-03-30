@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "League of Fitness",
+    "slug": "league-of-fitness",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.omensofanarchyorg.leagueoffitness"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.omensofanarchyorg.leagueoffitness"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4938ce1-3f78-4524-83af-2d5fa2bc5c83"
+      }
+    },
+    "owner": "omensofanarchy-org",
+    "updates": {
+      "url": "https://u.expo.dev/e4938ce1-3f78-4524-83af-2d5fa2bc5c83"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
