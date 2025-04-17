@@ -6,7 +6,6 @@ const Exercises = () => {
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>Exercises</h1>
       <p>Here you can find a list of exercises to help you stay fit and healthy!</p>
-      {/* Add more content or functionality here */}
     </div>
   );
 };
